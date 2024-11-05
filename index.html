@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="text-center text-white d-flex align-items-center">
+    <div class="container">
+      <img src="images/cross.jpg" alt="Profile Picture" class="profile-picture rounded-circle mb-3">
+      <h1 class="display-3">Hello, I'm Victor Olagboye [V coder]</h1>
+      <p class="lead">A Full-Stack Developer crafting digital experiences</p>
+      <a href="#contact" class="btn btn-outline-light btn-lg mt-4">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container mt-5 pt-5">
+    <h2 class="text-center">About Me</h2>
+    <p class="text-center">I'm a passionate full-stack developer with experience in building engaging, responsive web and mobile applications...</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Skills</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <h4>Frontend</h4>
+          <p>React, HTML, CSS, JavaScript, Bootstrap</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Backend</h4>
+          <p>Node.js, Express, MongoDB</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Tools</h4>
+          <p>Git, Docker, AWS, Firebase</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Experience Section -->
+  <section id="experience" class="container mt-5">
+    <h2 class="text-center mb-5">Work Experience</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="card shadow">
+          <div class="card-body">
+            <h5 class="card-title">Job Title 1</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Company Name | 2020 - 2022</h6>
+            <p class="card-text">Description of the role, your responsibilities, and achievements.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="card shadow">
+          <div class="card-body">
+            <h5 class="card-title">Job Title 2</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Company Name | 2018 - 2020</h6>
+            <p class="card-text">Description of the role, your responsibilities, and achievements.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container mt-5">
+    <h2 class="text-center mb-5">Projects</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="card shadow">
+          <img src="images/cross.jpg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Project Title 1</h5>
+            <p class="card-text">Brief description of the project...</p>
+            <a href="project-link.com" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="card shadow">
+          <img src="images/cross.jpg    " class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Project Title 2</h5>
+            <p class="card-text">Brief description of the project...</p>
+            <a href="project-link.com" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-dark text-white py-5">
+    <div class="container text-center">
+      <h2>Contact Me</h2>
+      <p class="lead">Let's connect! Feel free to reach out via WhatsApp or email.</p>
+      <div class="d-flex justify-content-center mt-4">
+        <a href="https://wa.me/08123587842" class="btn btn-success mx-2">WhatsApp</a>
+        <a href="mailto:victorolagboye11@gmail.com" class="btn btn-info mx-2">Email</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
