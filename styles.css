@@ -7,7 +7,7 @@ body, html {
   /* Hero section */
   #hero {
     height: 100vh;
-    background: url('images/cross.jpg') no-repeat center center/cover;
+    background: url('images/HD-Binary-Code-Background-620x388.jpg') no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,6 +65,9 @@ body, html {
   
   .card:hover {
     transform: scale(1.05);
+  }
+  .re {
+    color: #ffffff;
   }
   
   /* Contact Section */
